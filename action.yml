@@ -1,6 +1,6 @@
-name: Convox Deploy
+name: Convox Subdir Deploy
 description: Build and Deploy a Convox app in a single step
-author: Convox
+author: Aiera
 branding:
   icon: upload-cloud
   color: blue
@@ -23,6 +23,9 @@ inputs:
     required: false
   manifest:
     description: Convox manifest filename
+    required: false
+  path:
+    description: Path where Convox build and deploy should occur
     required: false
 runs:
   using: docker

@@ -1,9 +1,9 @@
 FROM ubuntu:18.04
 
-LABEL version="1.0.0"
-LABEL repository="https://github.com/convox/action-deploy"
-LABEL homepage="https://convox.com/convox"
-LABEL maintainer="Convox <support@convox.com>"
+LABEL version="1.0.1"
+LABEL repository="https://github.com/aiera-inc/action-deploy"
+LABEL homepage="https://www.aiera.com/"
+LABEL maintainer="Aiera <support@aiera.com>"
 
 LABEL "com.github.actions.name"="Convox Deploy"
 LABEL "com.github.actions.description"="Build and Deploy an app to Convox in one step"
