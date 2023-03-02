@@ -19,7 +19,7 @@ fi
 
 if [ -n "$INPUT_MANIFEST" ]
 then
-  convox deploy --app "$INPUT_APP" --manifest "$INPUT_MANIFEST" --description "$INPUT_DESCRIPTION" --wait
+  convox deploy --app "$INPUT_APP" --manifest "$INPUT_MANIFEST" --description "$INPUT_DESCRIPTION"
 else
-  convox deploy --app "$INPUT_APP" --description "$INPUT_DESCRIPTION" --wait
+  convox deploy --app "$INPUT_APP" --description "$INPUT_DESCRIPTION"
 fi
